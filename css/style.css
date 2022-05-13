@@ -1,6 +1,7 @@
 body {
   width: 100%;
   height: 100%;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 .container {
@@ -16,18 +17,104 @@ body {
 }
 
 .box-white {
-  border-radius: 15px;
-  background-color: #ffffff;
-  width: 500px;
-  height: 700px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #ffffff;
+  width: 450px;
+  min-height: 670px;
   box-sizing: border-box;
+  text-align: center;
+  margin: 20px;
+}
+
+.box-white h1 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 0px;
+}
+
+.box-white p {
+  color: #86879b;
+  font-size: 16px;
+  width: 80%;
 }
 
 .box-white img {
   border-radius: 15px 15px 0 0;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .annual-plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f8f9fe;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  width: 80%;
+  height: 80px;
+}
+
+.annual-plan img {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+}
+
+.text-plan {
+  line-height: 0.5;
+  padding-right: 80px;
+}
+.text-plan h4 {
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+
+.text-plan p {
+  font-size: 16px;
+}
+
+a {
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+
+a:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.button {
+  width: 80%;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  color: #ffffff;
+  font-weight: 700;
+  box-shadow: 3px 10px 8px #dddaf7;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #766cf1;
+}
+
+span {
+  color: #86879b;
+  font-size: 16px;
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+span:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
 }
