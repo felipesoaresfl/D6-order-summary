@@ -115,11 +115,25 @@ a:hover {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 375px) {
+@media (min-width: 375px) {
   body {
     background-color: hsl(225, 100%, 94%);
     background-image: url(../img/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
+  }
+
+  .card {
+    width: 400px;
+  }
+  .card img {
+    width: 400px;
+  }
+  .annual-plan img {
+    width: 50px;
+    height: 50px;
+  }
+  .box-white {
+    padding: 50px;
   }
 }
