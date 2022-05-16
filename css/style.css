@@ -55,6 +55,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-top: 25px;
+  background-color: #f8f9fe;
 }
 
 .annual-plan img {
@@ -124,16 +125,27 @@ a:hover {
   }
 
   .card {
-    width: 400px;
+    width: 480px;
   }
+
   .card img {
-    width: 400px;
+    width: 480px;
   }
+
+  .annual-plan {
+    padding: 0 20px;
+  }
+
   .annual-plan img {
     width: 50px;
     height: 50px;
   }
+
   .box-white {
-    padding: 50px;
+    padding: 40px 65px;
+  }
+
+  .button {
+    width: 350px;
   }
 }
