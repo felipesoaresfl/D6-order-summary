@@ -1,6 +1,12 @@
+
+## View Page
+https://felipesoaresfl.github.io/d6-order-summary/
+
+
+
 # Frontend Mentor - Order summary card
 
-![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Order summary card coding challenge](../design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
